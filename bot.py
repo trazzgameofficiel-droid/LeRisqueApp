@@ -9,7 +9,7 @@ TOKEN = os.environ.get("BOT_TOKEN", "8713104272:AAGuu-HE3v6_yIIL9dbIf7s49SpVj4oR
 def main_menu():
     keyboard = [
         [InlineKeyboardButton(" Accéder à la mini app",
-            web_app=WebAppInfo(url="https://69dead9a9e83682db189e257--dainty-marzipan-b99def.netlify.app/")
+            web_app=WebAppInfo(url="https://69dfe9dfef76877524c41a30--dainty-marzipan-b99def.netlify.app/")
         )],
         [InlineKeyboardButton(" Support", callback_data="support")],
         [InlineKeyboardButton(" Canal", url="https://t.me/rsqcoffe")]
